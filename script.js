@@ -19,6 +19,12 @@
   }
   
   function handleScroll() {
+    // Do not use parallax on touchscreen devices since their viewports may
+    // change height.
+    if ('ontouchstart' in window) {
+      return;
+    }
+    
     // Compute the translation of the background.
     var offset = Math.max(window.scrollY / PARALAX_STRENGTH, 0);
     background.style.top = '' + Math.round(offset) + 'px';
