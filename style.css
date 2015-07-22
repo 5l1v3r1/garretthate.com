@@ -5,104 +5,38 @@ body, html {
   height: 100%;
   background-color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 14px;
 }
 
-#background {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  background-size: cover;
-  background-image: url('background.jpg');
-}
-
-#page1 {
-  height: 100%;
-}
-
-#page1 nav {
-  position: absolute;
-  top: 3em;
-  right: 0px;
-  margin: 0;
-  padding: 0;
-}
-
-#page1 a {
-  float: left;
-  margin-right: 3em;
-  font-size: 0.8em;
-  color: white;
-}
-
-#page1 h1 {
-  position: absolute;
-  left: 0;
-  top: calc(50% - 1.5em);
-  width: 100%;
-  height: 2em;
-  
-  padding: 0;
-  margin: 0;
-  
-  color: white;
-  text-align: center;
-  font-size: 2.5em;
-  line-height: 2em;
-}
-
-#page1 h3 {
-  position: absolute;
-  left: 0;
-  top: calc(50% + 2em);
-  width: 100%;
-  height: 2em;
-  
-  padding: 0;
-  margin: 0;
-  
-  color: white;
-  text-align: center;
-  font-size: 1em;
-  line-height: 2em;
-  
-  font-weight: 100;
-}
-
-#page1 {
-  overflow: hidden;
+#content {
   position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  
+  background-color: #ccc;
+}
+
+#content::after {
+  content: '.';
+  height: 0;
+  visibility: hidden;
+  clear: both;
   display: block;
-  width: 100%;
+  overflow: hidden;
 }
 
-#page2 {
-  background-color: white;
-  padding: 50px 0 50px 0;
-  text-align: center;
+#text-content {
+  width: 610px;
+  float: left;
+  margin: 35px 0 35px 20px;
+  margin-left: 20px;
 }
 
-#projects {
-  display: inline-block;
-  text-align: center;
-  max-width: 930px;
-  font-size: 0;
-}
-
-#page2 .project {
-  display: inline-block;
+#box-content {
+  position: absolute;
+  right: 20px;
+  top: 100px;
   width: 250px;
   height: 250px;
-  margin: 30px 30px 30px 30px;
-  background-size: 100% 100%;
-}
-
-#page2 .codetheweb {
-  background-image: url('codetheweb.jpg');
-}
-
-#page2 .mogulvate {
-  background-image: url('mogulvate.jpg');
+  background-color: #00ff00;
 }
