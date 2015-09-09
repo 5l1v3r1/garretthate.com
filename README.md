@@ -6,4 +6,4 @@ My latest copycat design will be available on [garretthate.com](http://garrettha
 
 # Current design
 
-This is pretty much an exact replica of Garrett's current site except for two differences. First, I use the OpenSans font instead of the browser default. Second, I use JavaScript instead of `position: -webkit-sticky;` to achieve broader browser support.
+Garrett's current website is a blank page. I improved the blank page by adding pentagons.
