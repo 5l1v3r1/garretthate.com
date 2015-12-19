@@ -4,8 +4,19 @@
 }
 
 .contact-content form {
-  width: 400px;
   margin: auto;
+}
+
+@media (max-width: 400px) {
+  .contact-content form {
+    width: 300px;
+  }
+}
+
+@media (min-width: 400px) {
+  .contact-content form {
+    width: 400px;
+  }
 }
 
 .contact-content p {
@@ -21,7 +32,7 @@
 .contact-content input {
   border: 1px solid #e0e0e0;
   display: block;
-  width: 400px;
+  width: 100%;
   height: 25px;
   margin: 0 0 10px 0;
   font-size: 20px;
@@ -32,7 +43,7 @@
   box-sizing: border-box;
   border: 1px solid #e0e0e0;
   display: block;
-  width: 400px;
+  width: 100%;
   height: 220px;
   resize: none;
   font-size: 20px;
