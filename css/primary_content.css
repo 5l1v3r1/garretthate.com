@@ -1,0 +1,59 @@
+.primary-content {
+  margin-top: 150px;
+  padding: 95px 10px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.primary-content h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 33px;
+}
+
+.primary-content p {
+  padding: 0;
+  margin: 50px 0 0 0;
+  font-size: 15px;
+}
+
+.primary-content nav {
+  margin: 50px 0 0 0;
+  line-height: 50px;
+}
+
+.social-network-link {
+  display: inline-block;
+  padding: 10px 13px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: gray;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+
+.social-network-link:hover {
+  background-color: #4b4b4b;
+}
+
+.youtube-bg {
+  background-color: #d22121;
+}
+
+.linkedin-bg {
+  background-color: #027bb6;
+}
+
+.facebook-bg {
+  background-color: #4a5997;
+}
+
+.behance-bg {
+  background-color: #fc4349;
+}
+
+.evverest-bg {
+  background-color: #252d40;
+}

@@ -6,4 +6,6 @@ My latest copycat design will be available on [garretthate.com](http://garrettha
 
 # Current design
 
-Garrett's current website is a blank page. I improved the blank page by adding pentagons.
+Garrett's current website looks like this:
+
+![Website](screenshot.png)
